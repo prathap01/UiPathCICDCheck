@@ -126,7 +126,7 @@
                       <OutArgument x:TypeArguments="x:Int32">[FirstNum]</OutArgument>
                     </Assign.To>
                     <Assign.Value>
-                      <InArgument x:TypeArguments="x:Int32">[Convert.ToInt32(row.Item("First Number").ToString)]</InArgument>
+                      <InArgument x:TypeArguments="x:Int32">[Convert.ToInt32(row.Item("Firs Number").ToString)]</InArgument>
                     </Assign.Value>
                   </Assign>
                   <Assign DisplayName="Assign SecondNum" sap:VirtualizedContainerService.HintSize="258,60" sap2010:WorkflowViewState.IdRef="Assign_2">
